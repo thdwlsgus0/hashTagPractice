@@ -1,0 +1,25 @@
+hash-tag{
+  height:10px;
+  font-family:sans-serif;
+}
+
+.editor_body{
+  width:100%;
+  height:100%;
+  overflow-y:auto;
+  overflow-x:none;
+  border-top:1px solid #e9e9e9;
+  border-bottom:1px solid #e9e9e9;
+  position:relative;
+  box-sizing:border-box;
+  min-height:5em;
+}
+
+
+.inp{
+  z-index:1;
+}
+
+.outp{
+  z-index:2;
+}
