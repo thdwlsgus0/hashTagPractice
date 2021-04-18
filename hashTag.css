@@ -15,11 +15,37 @@ hash-tag{
   min-height:5em;
 }
 
-
-.inp{
+div.inp{
   z-index:1;
 }
 
-.outp{
+div.outp{
   z-index:2;
+}
+
+span.mention{
+  background:#69c;
+  color:#fff;
+  border-radius: .5em;
+  padding:0 .2em;
+  margin:0 -.2em;
+}
+
+div.outp, div.placeholder{
+  pointer-events:none;
+}
+
+.outp, .inp, .placeholder{
+  text-align: left;
+  width:100%;
+  height:auto;
+  min-height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  overflow-y:visible;
+}
+
+div.outp:focus, div.inp:focus, div.placeholder:focus{
+  outline:none;
 }
